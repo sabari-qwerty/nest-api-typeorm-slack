@@ -5,7 +5,7 @@ import { Repository } from 'typeorm';
 import { updateDataDto } from './dto/update.data.dto';
 import { HttpService } from '@nestjs/axios';
 import { firstValueFrom } from 'rxjs';
-import { SlackConfig } from './slack.config';
+import { SlackConfig } from '../slack.config';
 
 @Injectable()
 export class AppService {
